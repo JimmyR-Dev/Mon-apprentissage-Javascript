@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercices Javascript</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script> <!--defer va permettre d'attendre que toute la page HTML soit chargé avant de lancer le script js-->
+    
+</head>
+
+<body>
+    <div class="mes-elements">
+        <h1>Mes cours Javascript</h1>
+        <p>Ceci est le premier test</p>
+        <p>Ceci est le deuxiéme test</p>
+    </div>
+
+    <div class="ma-classe">
+        <img src="../HTML-CSS/images/viz250252mqa1.gif" alt="Image de Rubilia" id="rubilia" class="rubilia">
+    </div>
+    <div class="ma-classe">
+        <img src="../HTML-CSS/images/viz250252mqa1.gif" alt="Image de Rubilia" id="rubilia" class="rubilia">
+    </div>
+
+    <h1 class="mon-titre">Mon titre</h1>
+    <a href="">add</a>
+    <a href="">remove</a>
+    <a href="">toggle</a><br>
+    <p>
+        <button class="button">Bouton event 1</button>
+        <button class="button1">Bouton event 2</button>
+    </p>
+
+    <p>
+        <button class="list-buttons">Bouton event 3</button>
+    </p>
+
+    <p>
+        <button class="list-buttons">Bouton event 4</button>
+    </p>
+
+    <p><label for="champ">Test d'évenement de saisie : </label><input type="text" id="champ" name="champ" value="Jimmy"></p> <br>
+    <p>
+        Veuillez cocher les cases qui correspondes <br>
+        <input type="checkbox" name="frites" id="frites" > <label for="frites">Frites</label><br>
+        <input type="checkbox" name="legumes" id="legumes"> <label for="legumes">Légumes</label><br>
+        <input type="checkbox" name="riz" id="riz"> <label for="riz">Riz</label><br>
+        <input type="checkbox" name="pizza" id="pizza" checked> <label for="pizza">Pizza</label>
+        <input type="reset" value="Réinitialiser"> <!--Reinitialise les choix-->
+    </p>
+
+    
+        <fieldset>
+            <legend>Choisissez votre couleur</legend>
+        <p class="radio">
+            <div><input type="radio" id="red" name="color" value="red"><label for="red">Rouge</label></div>
+            <div><input type="radio" id="blue" name="color" value="blue"><label for="blue">Bleu</label></div>
+            <div><input type="radio" id="green" name="color" value="green"><label for="green">Vert</label></div>
+
+        </p>
+        </fieldset>
+
+        <br>
+
+        <form action="" method="post" class="test-trim">
+            <p>
+                <label for="test-trim">Test de trim()</label><input type="text" id="test-trim" name="test-trim" class="test-input">
+                <button class="trim-button">Valider</button>
+            </p>
+        </form>
+        <form action="" method="post" class="test-error">
+            <label for="test-error">Test de try catch et throw()</label><input type="text" id="test-error" name="test-error">
+            <button class="error-button">Valider</button>
+        </form>
+        <a onclick="launchSite()" href="https://facebook.com">test</a>
+</body>
+
+</html>

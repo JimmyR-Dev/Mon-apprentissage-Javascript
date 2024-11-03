@@ -1,0 +1,59 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+    color: deeppink;
+    border: 2px solid ;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px;
+    background: linear-gradient(to left, #ebae07, #7d682d);
+    margin:auto
+
+}
+
+
+
+a:hover {
+    opacity: 0.7;
+}
+
+.mon-titre {
+    color: red;
+    border: 2px solid;
+    border-radius: 6px;
+    box-shadow: 6px 6px 6px;
+    
+}
+
+.alt-titre {
+    color: green;
+    border: 2px solid;
+    border-radius: 6px;
+    box-shadow: 6px 6px 6px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+fieldset div {
+    padding-bottom: 15px;
+    width: 100px;
+}
+
+#error {
+    background-color: red;
+}
+
+.error {
+    box-shadow: red 0px 0px 20px;
+}
