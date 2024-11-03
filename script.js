@@ -129,15 +129,6 @@ if (revenueClient >= prixPizza) {
     console.log("j'achéte le saucisson")
 }
 
-<<<<<<< HEAD
-
-if (revenueClient >= prixPizza) {
-    console.log("j'achéte la pizza")
-} else {
-    console.log("j'achéte le saucisson")
-}
-=======
->>>>>>> d17dde3 (Mise à jour d'apprentissage)
 //-----
 
 const maVraiVariable = false 
@@ -207,11 +198,7 @@ if (entreeUtilisateur === listeMots[0]) {
 
 console.log(listeMots[score])
 
-<<<<<<< HEAD
-//Je demande à ce que le mot que l'utilisateur va entré soit équivalent au 1er mot du tableau, si c'est correct j'incrémente de 1, sinon mauvaise réponse
-=======
 //Je demande à ce que le mot que l'utilisateur va entrer soit équivalent au 1er mot du tableau, si c'est correct j'incrémente de 1, sinon mauvaise réponse
->>>>>>> d17dde3 (Mise à jour d'apprentissage)
 //-----
 
 //--------------------------------LES BOUCLES-------------------------------
@@ -256,12 +243,6 @@ console.log("Votre score est de " + score + " sur 3")
 
 do while permet d'executer au moins une fois la boucle avant de vérifier si il faut la répéter
 */
-<<<<<<< HEAD
-//-----
-
-let i = 0
-while (i < 4) {
-=======
 
 // Fais passer tout les éléments du tableau via "l'index"
 const compteurIn = ["Coca", "Orange", "Thé"]
@@ -290,7 +271,6 @@ for (let compteursOf of compteurOf) {
 
 let i = 0
 while (i < 2) {
->>>>>>> d17dde3 (Mise à jour d'apprentissage)
     console.log(i)
     i++ 
 }
@@ -331,8 +311,6 @@ console.log(prixTotal(100, 20)) // Probléme pour intégrer un pourcentage à 20
 
 //-----
 
-<<<<<<< HEAD
-=======
 const isPair = function (a, cb) {
     if (a % 2 === 0) {
         cb(a)
@@ -345,7 +323,6 @@ isPair(2, function () {
 // Ici je passe une fonction dans mon 2éme paramètre un 'Callback' , ce qui permet d'appeller cette fonction si la condition est vraie
 //-----
 
->>>>>>> d17dde3 (Mise à jour d'apprentissage)
 //-------------------------ELEMENT DU DOM-------------------------
 console.error("Elements du DOM")
 //------           VOIR AUSSI LE DOSSIER 'MON SITE WEB' EN COMPLEMENT
@@ -371,11 +348,7 @@ for (let i = 0; i < mesHtmlElements.length; i++) {
 let rubilia = document.querySelector('div img')
 rubilia.setAttribute('class', 'Taxia')    //setAttribute permet de remplacer la valeur d'un attribut html
 rubilia.setAttribute('src', '../HTML-CSS/images/8sx4h4mr1mqa1.gif') // va modifier l'image vu que src a été changé
-<<<<<<< HEAD
- // Un raccourci foncionne aussi par ex : rubilia.src = 'le lien vers l'image', cela fonctionne pour les attributs de bases
-=======
  // Un raccourci fonctionne aussi par ex : rubilia.src = 'le lien vers l'image', cela fonctionne pour les attributs de base
->>>>>>> d17dde3 (Mise à jour d'apprentissage)
 
 let mesDivs = document.querySelectorAll('div') //je séléctionne toutes mes <div>
 console.log(mesDivs)
